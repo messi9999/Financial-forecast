@@ -53,6 +53,7 @@ web_modules/
 .npm
 
 env
+server/env
 
 # Optional eslint cache
 .eslintcache
