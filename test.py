@@ -1,14 +1,15 @@
-import requests
+# import requests
 
-url = "https://google-news-api1.p.rapidapi.com/search"
+# url = "https://api.apilayer.com/financelayer/news?sort=asc&offset=20&limit=20&keywords=forex news,JPYUSD news, USD-JPY, USD:JPY&fallback=off&date=last3months"
 
-querystring = {"language":"English"}
+# payload = {}
+# headers= {
+#   "apikey": "qJ49Pf7Z4lrSO76INmUZp84PZwFUP4YW"
+# }
 
-headers = {
-	"X-RapidAPI-Key": "948adc1e15msh9210f2ef813968dp1460b8jsnc10ebce67fba",
-	"X-RapidAPI-Host": "google-news-api1.p.rapidapi.com"
-}
+# response = requests.request("GET", url, headers=headers, data = payload)
 
-response = requests.get(url, headers=headers, params=querystring)
+# status_code = response.status_code
+# result = response.text
 
-print(response.json())
+# print(result)
