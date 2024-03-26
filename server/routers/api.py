@@ -1,11 +1,6 @@
-from serpapi import GoogleSearch
+from fastapi import APIRouter
+from . import news
 
-params = {
-  "engine": "google_news",
-  "q": "USD:JYP",
-  "api_key": "f0bcd3101c0d3efebcb34ddf935e5905584dcdbd5ff951d60d338e440df10c86"
-}
+api_router = APIRouter()
 
-search = GoogleSearch(params)
-results = search.get_dict()
-news_results = results["news_results"]
+api_router.include_router(news.router, prefix="", tags=["News"])

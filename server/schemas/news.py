@@ -1,10 +1,9 @@
-from datetime import date, datetime
-from pydantic import BaseModel
+from pydantic import BaseModel, Json
 
 class NewsResponseSchema(BaseModel):
-    title: str
-    link: str
-    summary: str
-    published: datetime
-    source: str
+    newsData: Json
 
+
+class CurrencyForecastSchema(BaseModel):
+    Daily: Json
+    Yearly: Json
