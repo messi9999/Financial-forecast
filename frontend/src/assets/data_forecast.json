@@ -1,0 +1,91 @@
+{
+    "Daily": [
+      {
+        "Date": "Mar 25, 2024",
+        "Daily High": "¥151.39",
+        "Daily Low": "¥151.29"
+      },
+      {
+        "Date": "Mar 26, 2024",
+        "Daily High": "¥151.27",
+        "Daily Low": "¥150.19"
+      },
+      {
+        "Date": "Mar 27, 2024",
+        "Daily High": "¥151.26",
+        "Daily Low": "¥151.09"
+      },
+      {
+        "Date": "Mar 28, 2024",
+        "Daily High": "¥151.04",
+        "Daily Low": "¥150.89"
+      },
+      {
+        "Date": "Mar 29, 2024",
+        "Daily High": "¥151.04",
+        "Daily Low": "¥151.04"
+      },
+      {
+        "Date": "Mar 30, 2024",
+        "Daily High": "¥151.04",
+        "Daily Low": "¥150.86"
+      },
+      {
+        "Date": "Mar 31, 2024",
+        "Daily High": "¥150.96",
+        "Daily Low": "¥150.10"
+      },
+      {
+        "Date": "Apr 01, 2024",
+        "Daily High": "¥150.75",
+        "Daily Low": "¥150.25"
+      },
+      {
+        "Date": "Apr 02, 2024",
+        "Daily High": "¥150.39",
+        "Daily Low": "¥150.35"
+      },
+      {
+        "Date": "Apr 03, 2024",
+        "Daily High": "¥150.35",
+        "Daily Low": "¥150.35"
+      }
+    ],
+    "Yearly": [
+      {
+        "Year": "2024",
+        "Yearly High": "¥147.15",
+        "Yearly Low": "¥168.42"
+      },
+      {
+        "Year": "2025",
+        "Yearly High": "¥147.04",
+        "Yearly Low": "¥199.62"
+      },
+      {
+        "Year": "2026",
+        "Yearly High": "¥190.84",
+        "Yearly Low": "¥206.23"
+      },
+      {
+        "Year": "2027",
+        "Yearly High": "¥164.08",
+        "Yearly Low": "¥199.12"
+      },
+      {
+        "Year": "2028",
+        "Yearly High": "¥176.78",
+        "Yearly Low": "¥194.05"
+      },
+      {
+        "Year": "2029",
+        "Yearly High": "¥171.95",
+        "Yearly Low": "¥187.84"
+      },
+      {
+        "Year": "2030",
+        "Yearly High": "¥172.62",
+        "Yearly Low": "¥184.06"
+      }
+    ]
+  }

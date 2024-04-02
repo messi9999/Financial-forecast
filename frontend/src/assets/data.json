@@ -1,0 +1,758 @@
+{
+  "newsData": {
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "count": 50,
+      "total": 4011
+    },
+    "data": [
+      {
+        "title": "USD/JPY Likely Vulnerable to Sharp Swings on BOJ Decision",
+        "url": "https://www.wsj.com/finance/currencies/usd-jpy-likely-vulnerable-to-sharp-swings-on-boj-decision-c7039178",
+        "description": "USD/JPY Likely Vulnerable to Sharp Swings on BOJ Decision",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap"
+        ],
+        "published_at": "2024-03-19T00:20:00+00:00"
+      },
+      {
+        "title": "USD/JPY Could Face Risk of Possible Intervention Around 151",
+        "url": "https://www.wsj.com/finance/currencies/usd-jpy-could-face-risk-of-possible-intervention-around-151-8939b978",
+        "description": "USD/JPY Could Face Risk of Possible Intervention Around 151",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap",
+          "Cnyc",
+          "Fctdsi"
+        ],
+        "published_at": "2024-03-20T00:36:00+00:00"
+      },
+      {
+        "title": "Japan's factory activity contracts for the sixth straight month in November (USD:JPY)",
+        "url": "https://seekingalpha.com/news/4042067-japans-factory-activity-contracts-for-the-sixth-straight-month",
+        "description": "This article discusses ETFs (JEQ, EWJ, DXJ, FXY) and the currency pair USD/JPY, offering insights on their relevance in the financial market.",
+        "source": "seekingalpha.com",
+        "tickers": [],
+        "tags": [
+          "Japan"
+        ],
+        "published_at": "2023-12-01T07:07:21+00:00"
+      },
+      {
+        "title": "Verisk Estimates Industry Insured Losses for the Noto Peninsula Earthquake to Range from JPY 260 Billion to JPY 480 Billion (USD 1.8 Billion to 3.3 Billion)",
+        "url": "https://www.globenewswire.com/news-release/2024/01/09/2805942/0/en/Verisk-Estimates-Industry-Insured-Losses-for-the-Noto-Peninsula-Earthquake-to-Range-from-JPY-260-Billion-to-JPY-480-Billion-USD-1-8-Billion-to-3-3-Billion.html?f=22&fvtc=2&fvtv=1",
+        "description": "BOSTON, Jan.  08, 2024  (GLOBE NEWSWIRE) -- The Extreme Event Solutions business unit of Verisk (Nasdaq: VRSK), a leading global data analytics and...",
+        "source": "globenewswire.com",
+        "tickers": [
+          "usd",
+          "vrsk"
+        ],
+        "tags": [
+          "Catastrophe Modeling",
+          "CryptoCurrency",
+          "ETF",
+          "Earthquake",
+          "FX",
+          "Industrials",
+          "Insurance",
+          "Japan Earthquake",
+          "Nasdaq:Vrsk",
+          "Natural Disasters",
+          "Risk Modeling",
+          "Stock",
+          "Verisk Extreme Event Solutions"
+        ],
+        "published_at": "2024-01-09T02:07:00+00:00"
+      },
+      {
+        "title": "Asian markets remain mixed after Japan's GDP shrank (USD:JPY)",
+        "url": "https://seekingalpha.com/news/4044598-asian-equity-remain-mixed-after-japans-gdp-shrank",
+        "description": "Japan (NKY:IND) -1.37%. India (SENSEX) +0.40%. Australia (AS51) -0.89%. In the U.S. on Monday, all three major indexes ended lower, while Treasury yields rose a",
+        "source": "seekingalpha.com",
+        "tickers": [],
+        "tags": [
+          "Australia",
+          "India",
+          "Japan"
+        ],
+        "published_at": "2023-12-08T08:01:13+00:00"
+      },
+      {
+        "title": "Nikkei May Rise Amid JPY Weakness",
+        "url": "https://www.wsj.com/finance/stocks/nikkei-may-rise-amid-jpy-weakness-b3d38acc",
+        "description": "Japanese shares may rise amid JPY weakness, which typically benefits the overseas earnings of domestic exporters when repatriated back to Japan.",
+        "source": "wsj.com",
+        "tickers": [
+          "asia"
+        ],
+        "tags": [
+          "Asia",
+          "Asia Pacific",
+          "ETF",
+          "East Asia",
+          "Japan",
+          "Synd",
+          "Tiingo Top",
+          "Wsj-Pro-Np"
+        ],
+        "published_at": "2024-01-15T23:49:00+00:00"
+      },
+      {
+        "title": "JPY Weakens Ahead of U.S. CPI Data",
+        "url": "https://www.wsj.com/finance/currencies/jpy-weakens-ahead-of-u-s-cpi-data-6a719a0e",
+        "description": "JPY Weakens Ahead of U.S. CPI Data",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [],
+        "published_at": "2024-02-13T03:11:00+00:00"
+      },
+      {
+        "title": "JPY Weakens Amid Mild Risk Appetite",
+        "url": "https://www.wsj.com/finance/currencies/jpy-weakens-amid-mild-risk-appetite-d66825ab",
+        "description": "JPY weakened against other G-10 and Asian currencies in the morning Asian session amid mild risk appetite.",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Pmintl"
+        ],
+        "published_at": "2024-01-02T01:35:00+00:00"
+      },
+      {
+        "title": "JPY Strengthens on Lingering FX Intervention Threat",
+        "url": "https://www.wsj.com/finance/currencies/jpy-strengthens-on-lingering-fx-intervention-threat-45b23efb",
+        "description": "JPY Strengthens on Lingering FX Intervention Threat",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [],
+        "published_at": "2024-02-15T02:14:00+00:00"
+      },
+      {
+        "title": "WAmazing raises additional JPY 1.4 billion in Series C funding, exceeding JPY 4.5 billion raised since its establishment",
+        "url": "http://www.businesswire.com/news/home/20231208109228/en/WAmazing-raises-additional-JPY-1.4-billion-in-Series-C-funding-exceeding-JPY-4.5-billion-raised-since-its-establishment",
+        "description": "WAmazing Inc., a startup company developing a tourism platform service for overseas tourists to Japan (CEO: Fumiko Kato, Head office: Tokyo, hereinaft",
+        "source": "businesswire.com",
+        "tickers": [],
+        "tags": [
+          "FX",
+          "Japan"
+        ],
+        "published_at": "2023-12-08T01:30:00+00:00"
+      },
+      {
+        "title": "WAmazing raises additional JPY 1.4 billion in Series C funding, exceeding JPY 4.5 billion raised since its establishment",
+        "url": "https://www.businesswire.com/news/home/20231208109228/en/WAmazing-raises-additional-JPY-1.4-billion-in-Series-C-funding-exceeding-JPY-4.5-billion-raised-since-its-establishment/?feedref=JjAwJuNHiystnCoBq_hl-Ymqj4g6qAlg7edDzhXcztJcgiwDl5F89IquLVWUqfRVgLxDkSKfgoruKb9yWl5as-PbWreMWuYBefATrZ0EPTUKvKXA1G4lfyVQLpVttJwGBSvR87oUDgbHejiywQBpbg%3D%3D",
+        "description": "WAmazing Inc., a startup company developing a tourism platform service for overseas tourists to Japan (CEO: Fumiko Kato, Head office: Tokyo, hereinaft",
+        "source": "businesswire.com",
+        "tickers": [],
+        "tags": [
+          "Japan"
+        ],
+        "published_at": "2023-12-08T01:30:00+00:00"
+      },
+      {
+        "title": "WAmazing raises additional JPY 1.4 billion in Series C funding, exceeding JPY 4.5 billion raised since its establishment",
+        "url": "https://www.businesswire.com/news/home/20231208109228/en/WAmazing-raises-additional-JPY-1.4-billion-in-Series-C-funding-exceeding-JPY-4.5-billion-raised-since-its-establishment/?feedref=JjAwJuNHiystnCoBq_hl-fqXyBvmekC3Xq1G1wQ7hjMFbZM1ntlKeK-8bUzJqFSVSfe41V1BKA-b6v2ZVrSSNs-dUYKiDvY7XniNSqv88QcY1Ge_vf9QIMZ4alzIf_0HlyE0C4hZhHVlTvKnn0d0vQ%3D%3D",
+        "description": "WAmazing Inc., a startup company developing a tourism platform service for overseas tourists to Japan (CEO: Fumiko Kato, Head office: Tokyo, hereinaft",
+        "source": "businesswire.com",
+        "tickers": [],
+        "tags": [
+          "Japan"
+        ],
+        "published_at": "2023-12-08T01:30:00+00:00"
+      },
+      {
+        "title": "JPY Strengthens as Traders Continue to Bet on BOJ Policy Exit",
+        "url": "https://www.wsj.com/finance/currencies/jpy-strengthens-as-traders-continue-to-bet-on-boj-policy-exit-5a408ae9",
+        "description": "JPY Strengthens as Traders Continue to Bet on BOJ Policy Exit",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap"
+        ],
+        "published_at": "2024-03-13T01:25:00+00:00"
+      },
+      {
+        "title": "JPY Mixed as BOJ’s Two-Day Meeting Kicks Off",
+        "url": "https://www.wsj.com/finance/currencies/jpy-mixed-as-bojs-two-day-meeting-kicks-off-4f0a8a20",
+        "description": "JPY Mixed as BOJ’s Two-Day Meeting Kicks Off",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap"
+        ],
+        "published_at": "2024-03-18T01:37:00+00:00"
+      },
+      {
+        "title": "JPY Strengthens, Boosted by Prospects of Possible BOJ Rate Increase",
+        "url": "https://www.wsj.com/finance/currencies/jpy-strengthens-boosted-by-prospects-of-possible-boj-rate-increase-ff81f221",
+        "description": "JPY Strengthens, Boosted by Prospects of Possible BOJ Rate Increase",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap",
+          "Fctdsi"
+        ],
+        "published_at": "2024-03-07T02:22:00+00:00"
+      },
+      {
+        "title": "JPY Strength From BOJ Policy Normalization Likely to Be for Limited Duration",
+        "url": "https://www.wsj.com/finance/currencies/jpy-strength-from-boj-policy-normalization-likely-to-be-for-limited-duration-7d126026",
+        "description": "JPY Strength From BOJ Policy Normalization Likely to Be for Limited Duration",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap",
+          "Combnk"
+        ],
+        "published_at": "2024-03-01T01:26:00+00:00"
+      },
+      {
+        "title": "JPY Strengthens Amid Prospects BOJ May Exit Accommodative Monetary Policy",
+        "url": "https://www.wsj.com/economy/central-banking/jpy-strengthens-amid-prospects-boj-may-exit-accommodative-monetary-policy-88e88701",
+        "description": "JPY strengthened against other G-10 and Asian currencies in the morning session amid prospects the BOJ may exit its accommodative monetary policy.",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap"
+        ],
+        "published_at": "2023-12-07T01:39:00+00:00"
+      },
+      {
+        "title": "JPY Strengthens Amid Speculation BOJ May End Negative-Rate Policy",
+        "url": "https://www.wsj.com/economy/central-banking/jpy-strengthens-amid-speculation-boj-may-end-negative-rate-policy-4161faf1",
+        "description": "JPY strengthened in the early morning Asian session amid speculation the BOJ may end its negative interest-policy as soon as this month.",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap"
+        ],
+        "published_at": "2023-12-08T00:58:00+00:00"
+      },
+      {
+        "title": "JGBs Fall, JPY Strengthens as BOJ Takata Calls for Talks on Potential Policy Exit",
+        "url": "https://www.wsj.com/finance/jgbs-fall-jpy-strengthens-as-boj-takata-calls-for-talks-on-potential-policy-exit-9d1a310d",
+        "description": "JGBs Fall, JPY Strengthens as BOJ Takata Calls for Talks on Potential Policy Exit",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap"
+        ],
+        "published_at": "2024-02-29T02:40:00+00:00"
+      },
+      {
+        "title": "JPY Strengthens Slightly as Tokyo CPI Data Back Case for BOJ’s Policy Exit",
+        "url": "https://www.wsj.com/finance/currencies/jpy-strengthens-slightly-as-tokyo-cpi-data-back-case-for-bojs-policy-exit-d63c96f4",
+        "description": "JPY Strengthens Slightly as Tokyo CPI Data Back Case for BOJ’s Policy Exit",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Bkjap"
+        ],
+        "published_at": "2024-03-05T01:47:00+00:00"
+      },
+      {
+        "title": "RGA inks 700 bln JPY longevity asset-intensive reinsurance deal with Japan Post Insurance",
+        "url": "https://seekingalpha.com/news/4082562-rga-inks-700-bln-jpy-longevity-asset-intensive-reinsurance-deal-with-japan-post-insurance",
+        "description": "Reinsurance Group of America (RGA) signs first-of-its-kind coinsurance deal with Japan Post Insurance for an in-force block of individual life annuities.",
+        "source": "seekingalpha.com",
+        "tickers": [
+          "rga",
+          "rza",
+          "rzb"
+        ],
+        "tags": [
+          "Financial Services",
+          "Japan",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-03-22T11:39:40+00:00"
+      },
+      {
+        "title": "RGA Announces 700 Billion JPY Longevity Asset-Intensive Reinsurance Transaction With Japan Post Insurance Company",
+        "url": "https://www.businesswire.com/news/home/20240322796041/en/RGA-Announces-700-Billion-JPY-Longevity-Asset-Intensive-Reinsurance-Transaction-With-Japan-Post-Insurance-Company/?feedref=JjAwJuNHiystnCoBq_hl-fqXyBvmekC3Xq1G1wQ7hjMFbZM1ntlKeK-8bUzJqFSVSfe41V1BKA-b6v2ZVrSSNs-dUYKiDvY7XniNSqv88QcY1Ge_vf9QIMZ4alzIf_0HlyE0C4hZhHVlTvKnn0d0vQ%3D%3D",
+        "description": "Reinsurance Group of America, Incorporated (NYSE: RGA), a leading global life and health reinsurer, today announced it has reached an agreement with J",
+        "source": "businesswire.com",
+        "tickers": [
+          "rga",
+          "rza",
+          "rzb"
+        ],
+        "tags": [
+          "Financial Services",
+          "Japan",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-03-22T11:00:00+00:00"
+      },
+      {
+        "title": "RGA Announces 700 Billion JPY Longevity Asset-Intensive Reinsurance Transaction With Japan Post Insurance Company",
+        "url": "https://www.businesswire.com/news/home/20240322796041/en/RGA-Announces-700-Billion-JPY-Longevity-Asset-Intensive-Reinsurance-Transaction-With-Japan-Post-Insurance-Company/?feedref=JjAwJuNHiystnCoBq_hl-d0q77hRjGWvCunvqSsMC5PkKuEqWGdtYcKRejd3o8qMqnKfqP6Z7nZVMLG-WqUNUuIFBOuQU34x9_qUrqnb9IFt3G9xeKEyIFKgj2nxZILuWb2_mZzaa2HVGkrPJ34F1Q%3D%3D",
+        "description": "Reinsurance Group of America, Incorporated (NYSE: RGA), a leading global life and health reinsurer, today announced it has reached an agreement with J",
+        "source": "businesswire.com",
+        "tickers": [
+          "rga",
+          "rza",
+          "rzb"
+        ],
+        "tags": [
+          "Financial Services",
+          "Japan",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-03-22T11:00:00+00:00"
+      },
+      {
+        "title": "RGA Announces 700 Billion JPY Longevity Asset-Intensive Reinsurance Transaction With Japan Post Insurance Company",
+        "url": "http://www.businesswire.com/news/home/20240322796041/en/RGA-Announces-700-Billion-JPY-Longevity-Asset-Intensive-Reinsurance-Transaction-With-Japan-Post-Insurance-Company",
+        "description": "Reinsurance Group of America, Incorporated (NYSE: RGA), a leading global life and health reinsurer, today announced it has reached an agreement with J",
+        "source": "businesswire.com",
+        "tickers": [
+          "rga",
+          "rza",
+          "rzb"
+        ],
+        "tags": [
+          "FX",
+          "Financial Services",
+          "Japan",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-03-22T11:00:00+00:00"
+      },
+      {
+        "title": "Bank of America Announces Redemption of JPY 58,500,000,000 0.383% Fixed/Floating Rate Senior Notes, due March 18, 2025",
+        "url": "https://www.prnewswire.com/news-releases/bank-of-america-announces-redemption-of-jpy-58-500-000-000-0-383-fixedfloating-rate-senior-notes-due-march-18--2025--302076375.html",
+        "description": "/PRNewswire/ -- Bank of America Corporation announced today that it will redeem on March 18, 2024 all JPY 58,500,000,000 principal amount outstanding of its...",
+        "source": "prnewswire.com",
+        "tickers": [
+          "bac",
+          "mhm",
+          "mpe"
+        ],
+        "tags": [
+          "Banking & Financial Services",
+          "FX",
+          "Financial Services",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-03-01T12:00:00+00:00"
+      },
+      {
+        "title": "USD Partners and USD Group CFO Altsuler resigns (OTCMKTS:USDP)",
+        "url": "https://seekingalpha.com/news/4061741-usd-partners-and-usd-group-cfo-altsuler-resigns",
+        "description": "USD Partners announces CFO transition as Adam Altsuler resigns. Kyle Schornick appointed as the new CFO.",
+        "source": "seekingalpha.com",
+        "tickers": [
+          "usdp"
+        ],
+        "tags": [
+          "Industrials",
+          "Stock"
+        ],
+        "published_at": "2024-02-01T22:19:05+00:00"
+      },
+      {
+        "title": "Japan Construction Industry Databook - CAGR of 4% Forecast During 2023-2027, with Construction Output Forecast to Reach JPY 42,062.1 Billion by 2027",
+        "url": "https://www.prnewswire.com/news-releases/japan-construction-industry-databook---cagr-of-4-forecast-during-2023-2027--with-construction-output-forecast-to-reach-jpy-42-062-1-billion-by-2027--302085886.html",
+        "description": "/PRNewswire/ -- The \"Japan Construction Industry Databook Series - Market Size & Forecast by Value and Volume (area and units), Q2 2023 Update\" report has been...",
+        "source": "prnewswire.com",
+        "tickers": [
+          "cagr"
+        ],
+        "tags": [
+          "Construction & Building",
+          "FX",
+          "Japan",
+          "Market Research Reports",
+          "Publishing & Information Services",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-03-12T10:45:00+00:00"
+      },
+      {
+        "title": "USD Partners and USD Group Announce Chief Financial Officer Transition",
+        "url": "http://www.businesswire.com/news/home/20240201659274/en/USD-Partners-and-USD-Group-Announce-Chief-Financial-Officer-Transition",
+        "description": "USD Partners and  USD Group Announce Chief Financial Officer Transition",
+        "source": "businesswire.com",
+        "tickers": [
+          "usd",
+          "usdp"
+        ],
+        "tags": [
+          "CryptoCurrency",
+          "ETF",
+          "FX",
+          "Industrials",
+          "Stock"
+        ],
+        "published_at": "2024-02-01T22:12:00+00:00"
+      },
+      {
+        "title": "USD Partners and USD Group Announce Chief Financial Officer Transition",
+        "url": "https://www.businesswire.com/news/home/20240201659274/en/USD-Partners-and-USD-Group-Announce-Chief-Financial-Officer-Transition/?feedref=JjAwJuNHiystnCoBq_hl-ed20Xeg3m02ke7wLHzR0vhC-PaDxm2AxJabicA7iw7ievRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxZyOJkysC5Ezh0qTiBmuAAj_MB0k7bSxuNDrJ9ITS1Yyw%3D%3D",
+        "description": "USD Partners and  USD Group Announce Chief Financial Officer Transition",
+        "source": "businesswire.com",
+        "tickers": [
+          "usdp"
+        ],
+        "tags": [
+          "Industrials",
+          "Stock"
+        ],
+        "published_at": "2024-02-01T22:12:00+00:00"
+      },
+      {
+        "title": "USD Coin-issuer Circle Internet files confidentially for IPO (Cryptocurrency:USDC-USD)",
+        "url": "https://seekingalpha.com/news/4054448-usd-coin-issuer-circle-internet-files-confidentially-for-ipo",
+        "description": "Circle Internet Financial, creator of USD Coin, has filed confidentially for an IPO after a failed merger.",
+        "source": "seekingalpha.com",
+        "tickers": [
+          "usdc"
+        ],
+        "tags": [
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-01-11T17:34:27+00:00"
+      },
+      {
+        "title": "XMR-USD drops on news Binance will delist privacy token (Cryptocurrency:XMR-USD)",
+        "url": "https://seekingalpha.com/news/4063192-xmr-usd-drops-on-news-binance-will-delist-privacy-token",
+        "description": "Binance, a cryptocurrency exchange, announced the delisting of monero (XMR-USD) and other tokens, leading to a 28.6% drop in XMR-USD's value.",
+        "source": "seekingalpha.com",
+        "tickers": [],
+        "tags": [
+          "CryptoCurrency"
+        ],
+        "published_at": "2024-02-06T16:01:21+00:00"
+      },
+      {
+        "title": "Global Corrugated Packaging Market Size Worth USD USD 104.19 Billion in 2032 | Emergen Research",
+        "url": "https://www.globenewswire.com/news-release/2023/12/19/2798396/0/en/Global-Corrugated-Packaging-Market-Size-Worth-USD-USD-104-19-Billion-in-2032-Emergen-Research.html?f=22&fvtc=1&fvtv=Mergers+And+Acquisitions",
+        "description": "Growing preference to adopt sustainable and eco-friendly packaging solutions is a major factor driving corrugated packaging market revenue growth...",
+        "source": "globenewswire.com",
+        "tickers": [
+          "usd"
+        ],
+        "tags": [
+          "Chemical Industry",
+          "Corrugated Packaging",
+          "Corrugated Packaging Market",
+          "CryptoCurrency",
+          "ETF",
+          "Emergen Research",
+          "FX",
+          "Market Report",
+          "Market Research"
+        ],
+        "published_at": "2023-12-19T11:45:15+00:00"
+      },
+      {
+        "title": "Gold Steady, Underpinned by USD Weakness",
+        "url": "https://www.wsj.com/finance/commodities-futures/gold-steady-underpinned-by-usd-weakness-0bcb081c",
+        "description": "Gold Steady, Underpinned by USD Weakness",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [],
+        "published_at": "2024-02-21T00:38:00+00:00"
+      },
+      {
+        "title": "Potassium Sorbate Market Size to Grow USD 139 Million USD by 2029 at a CAGR of 5.7% | Valuates Reports",
+        "url": "https://www.prnewswire.com/news-releases/potassium-sorbate-market-size-to-grow-usd-139-million-usd-by-2029-at-a-cagr-of-5-7--valuates-reports-302066131.html",
+        "description": "/PRNewswire/ -- Potassium Sorbate Market is Segmented by Type (Food Grade Potassium Sorbate, Pharma Grade Potassium Sorbate, Industrial Grade Potassium...",
+        "source": "prnewswire.com",
+        "tickers": [
+          "cagr",
+          "usd"
+        ],
+        "tags": [
+          "Chemical",
+          "CryptoCurrency",
+          "ETF",
+          "FX",
+          "Food & Beverages",
+          "Market Research Reports",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-02-20T15:01:00+00:00"
+      },
+      {
+        "title": "Tenaris to Commence a USD 300 million Second Tranche of its USD 1.2 Billion Share Buyback Program",
+        "url": "https://www.globenewswire.com/news-release/2024/02/25/2834757/0/en/Tenaris-to-Commence-a-USD-300-million-Second-Tranche-of-its-USD-1-2-Billion-Share-Buyback-Program.html?f=22&fvtc=2&fvtv=1",
+        "description": "LUXEMBOURG, Feb.  25, 2024  (GLOBE NEWSWIRE) -- Tenaris S.A. (NYSE and Mexico: TS and EXM Italy: TEN) (“Tenaris”) announced today that pursuant to its...",
+        "source": "globenewswire.com",
+        "tickers": [
+          "ts",
+          "usd"
+        ],
+        "tags": [
+          "CryptoCurrency",
+          "ETF",
+          "Energy",
+          "FX",
+          "Italy",
+          "Luxembourg",
+          "Mexico",
+          "Nyse:Ts",
+          "Stock",
+          "Tenaris Sa"
+        ],
+        "published_at": "2024-02-25T16:55:50+00:00"
+      },
+      {
+        "title": "Odne announces closing of USD 5.5 million USD Series A1 Financing Round to fund the US market launch",
+        "url": "https://www.prnewswire.com/news-releases/odne-announces-closing-of-usd-5-5-million-usd-series-a1-financing-round-to-fund-the-us-market-launch-302088598.html",
+        "description": "/PRNewswire/ -- Odne Ltd, a Swiss dental start-up company and upcoming innovator in endodontic treatments, is pleased to announce the closing of its Series A1...",
+        "source": "prnewswire.com",
+        "tickers": [
+          "usd"
+        ],
+        "tags": [
+          "Computer & Electronics",
+          "CryptoCurrency",
+          "Dentistry",
+          "ETF",
+          "FX",
+          "Health Care & Hospitals",
+          "Medical Equipment",
+          "Medical Pharmaceuticals",
+          "New Products & Services",
+          "Venture Capital"
+        ],
+        "published_at": "2024-03-13T20:53:00+00:00"
+      },
+      {
+        "title": "Gold Edges Lower, Weighed by USD Strength",
+        "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-lower-weighed-by-usd-strength-cd6f65e0",
+        "description": "Gold Edges Lower, Weighed by USD Strength",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [],
+        "published_at": "2024-03-20T00:54:00+00:00"
+      },
+      {
+        "title": "FAB achieves record 2023 with USD 4.5 billion net profit, proposes 50% payout - USD 2.1bn cash dividend",
+        "url": "https://www.prnewswire.com/news-releases/fab-achieves-record-2023-with-usd-4-5-billion-net-profit-proposes-50-payout--usd-2-1bn-cash-dividend-302050814.html",
+        "description": "/PRNewswire/ -- First Abu Dhabi Bank (FAB) delivered record full year 2023 and fourth quarter results, consolidating a three-year journey of disciplined...",
+        "source": "prnewswire.com",
+        "tickers": [
+          "fab",
+          "usd"
+        ],
+        "tags": [
+          "Banking & Financial Services",
+          "CryptoCurrency",
+          "ETF",
+          "Earnings",
+          "FX",
+          "Sales Reports"
+        ],
+        "published_at": "2024-02-01T14:43:00+00:00"
+      },
+      {
+        "title": "FAB achieves record 2023 with USD 4.5 billion net profit, proposes 50% payout - USD 2.1bn cash dividend",
+        "url": "https://www.prnewswire.com/news-releases/fab-achieves-record-2023-with-usd-4-5-billion-net-profit-proposes-50-payout--usd-2-1bn-cash-dividend-302050821.html",
+        "description": "/PRNewswire/ -- First Abu Dhabi Bank (FAB) delivered record full year 2023 and fourth quarter results, consolidating a three-year journey of disciplined...",
+        "source": "prnewswire.com",
+        "tickers": [
+          "fab",
+          "usd"
+        ],
+        "tags": [
+          "Banking & Financial Services",
+          "CryptoCurrency",
+          "ETF",
+          "Earnings",
+          "FX",
+          "Sales Reports"
+        ],
+        "published_at": "2024-02-01T14:46:00+00:00"
+      },
+      {
+        "title": "LTIMindtree crece un 3,5 % interanual en USD",
+        "url": "https://www.businesswire.com/news/home/20240117570105/es/?feedref=JjAwJuNHiystnCoBq_hl-fZYqiffDpHIASjea2DwvsWD1w08bW43U_zsPK9s38B4rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3nBCddZ7R8TUqSJPYIyhFzD7nKdfLXU1CD0fwzlM5l88g%3D%3D",
+        "description": "LTIMindtree [NSE: LTIM, BSE: 540005], compañía global de consultoría tecnológica y soluciones digitales, anunció hoy sus resultados consolidados corre",
+        "source": "businesswire.com",
+        "tickers": [
+          "forr"
+        ],
+        "tags": [
+          "Industrials",
+          "Stock"
+        ],
+        "published_at": "2024-01-18T05:59:00+00:00"
+      },
+      {
+        "title": "Gold Edges Up Amid Mild USD Weakness",
+        "url": "https://www.wsj.com/economy/central-banking/gold-edges-up-amid-mild-usd-weakness-95e67995",
+        "description": "Gold ticked higher in the early morning Asian session amid mild USD weakness, which typically has an inverse correlation with the precious metal.",
+        "source": "wsj.com",
+        "tickers": [],
+        "tags": [
+          "Cmcmkt"
+        ],
+        "published_at": "2023-12-13T00:48:00+00:00"
+      },
+      {
+        "title": "Gold Edges Up, Supported by Mild USD Weakness",
+        "url": "https://www.wsj.com/economy/central-banking/gold-edges-up-supported-by-mild-usd-weakness-7b9218f1",
+        "description": "Gold ticked higher in early morning Asian session, supported by mild weakness in USD, which typically has an inverse correlation with the precious metal.",
+        "source": "wsj.com",
+        "tickers": [
+          "ctb"
+        ],
+        "tags": [
+          "Consumer Cyclical",
+          "Ctb",
+          "Stock"
+        ],
+        "published_at": "2023-12-06T00:37:00+00:00"
+      },
+      {
+        "title": "USD Partners Announces Sale of West Colton Terminal",
+        "url": "https://www.businesswire.com/news/home/20231222739322/en/USD-Partners-Announces-Sale-of-West-Colton-Terminal/?feedref=JjAwJuNHiystnCoBq_hl-bBgM6bctQVPLdY-y2iaHAn9s8FI5reoXNdCXjSdtMKEWJT50v2g3Ei-19qH0fyPszGrim8IhAkVNXbaI1AGppOzkqEXpa07kut2m9xviGvGhsxr10QNLiXF0ldIdgovEA%3D%3D",
+        "description": "USD Partners Announces Sale of West Colton Terminal",
+        "source": "businesswire.com",
+        "tickers": [
+          "usdp"
+        ],
+        "tags": [
+          "Industrials",
+          "Stock"
+        ],
+        "published_at": "2023-12-22T21:21:00+00:00"
+      },
+      {
+        "title": "Interlink Electronics GAAP EPS of -$0.06 (Cryptocurrency:LINK-USD)",
+        "url": "https://seekingalpha.com/news/4082224-interlink-electronics-gaap-eps-of-006",
+        "description": "Interlink Electronics reported fourth quarter and fiscal year 2023 results, with a GAAP EPS of -$0.06 and a 120% increase in revenue from the previous year.",
+        "source": "seekingalpha.com",
+        "tickers": [
+          "link"
+        ],
+        "tags": [
+          "Stock",
+          "Technology"
+        ],
+        "published_at": "2024-03-21T16:47:52+00:00"
+      },
+      {
+        "title": "Hashnote Elevates Collateral Efficiency for PayPal USD With Paxos",
+        "url": "https://www.businesswire.com/news/home/20240326445686/en/Hashnote-Elevates-Collateral-Efficiency-for-PayPal-USD-With-Paxos/?feedref=JjAwJuNHiystnCoBq_hl-fqXyBvmekC3Xq1G1wQ7hjMFbZM1ntlKeK-8bUzJqFSVSfe41V1BKA-b6v2ZVrSSNs-dUYKiDvY7XniNSqv88QcY1Ge_vf9QIMZ4alzIf_0HlyE0C4hZhHVlTvKnn0d0vQ%3D%3D",
+        "description": "Hashnote, the on-chain first digital asset manager, supported by Cumberland and DRW, introduces its strategic collaboration with Paxos, a leading regu",
+        "source": "businesswire.com",
+        "tickers": [
+          "ma",
+          "pypl",
+          "pyplv"
+        ],
+        "tags": [
+          "Financial Services",
+          "Stock",
+          "Unknown Sector"
+        ],
+        "published_at": "2024-03-26T13:00:00+00:00"
+      },
+      {
+        "title": "USD Partners Announces Sale of West Colton Terminal",
+        "url": "http://www.businesswire.com/news/home/20231222739322/en/USD-Partners-Announces-Sale-of-West-Colton-Terminal",
+        "description": "USD Partners Announces Sale of West Colton Terminal",
+        "source": "businesswire.com",
+        "tickers": [
+          "usd",
+          "usdp"
+        ],
+        "tags": [
+          "CryptoCurrency",
+          "ETF",
+          "FX",
+          "Industrials",
+          "Stock"
+        ],
+        "published_at": "2023-12-22T21:21:00+00:00"
+      },
+      {
+        "title": "ARA PARTNERS ERWIRBT MEHRHEITSBETEILIGUNG AN USD CLEAN FUELS",
+        "url": "https://www.prnewswire.com/news-releases/ara-partners-erwirbt-mehrheitsbeteiligung-an-usd-clean-fuels-302024442.html",
+        "description": "/PRNewswire/ -- Ara Partners („Ara\"), ein Private-Equity- und Infrastrukturunternehmen, das sich auf Investitionen in die industrielle Dekarbonisierung...",
+        "source": "prnewswire.com",
+        "tickers": [
+          "usd"
+        ],
+        "tags": [
+          "Acquisitions",
+          "Alternative Energies",
+          "Banking & Financial Services",
+          "CryptoCurrency",
+          "ETF",
+          "Environmental Products & Services",
+          "FX",
+          "Green Technology",
+          "Mergers And Takeovers",
+          "Oil & Energy",
+          "Utilities"
+        ],
+        "published_at": "2024-01-02T13:00:00+00:00"
+      },
+      {
+        "title": "Alameda USD Selects New School Board Member",
+        "url": "https://patch.com/california/alameda/alameda-usd-selects-new-school-board-member",
+        "description": "She will replace board member Megan Sweet who resigned in October.",
+        "source": "patch.com",
+        "tickers": [],
+        "tags": [
+          "Alameda",
+          "California",
+          "Member",
+          "School",
+          "Schools",
+          "Selects"
+        ],
+        "published_at": "2023-12-28T23:07:02+00:00"
+      },
+      {
+        "title": "LTIMindtree Delivers 3.5% YoY USD Revenue Growth",
+        "url": "https://www.businesswire.com/news/home/20240117482620/en/LTIMindtree-Delivers-3.5-YoY-USD-Revenue-Growth/?feedref=JjAwJuNHiystnCoBq_hl-fZYqiffDpHIASjea2DwvsWD1w08bW43U_zsPK9s38B4rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3nBCddZ7R8TUqSJPYIyhFzD7nKdfLXU1CD0fwzlM5l88g%3D%3D",
+        "description": "LTIMindtree announced its consolidated results today for the third quarter ended December 31, 2023, as approved by its Board of directors.",
+        "source": "businesswire.com",
+        "tickers": [
+          "forr",
+          "msft"
+        ],
+        "tags": [
+          "Industrials",
+          "Stock",
+          "Technology"
+        ],
+        "published_at": "2024-01-17T14:18:00+00:00"
+      },
+      {
+        "title": "Temecula Valley USD Board Loses Conservative Majority",
+        "url": "https://patch.com/california/temecula/temecula-valley-usd-board-loses-conservative-majority",
+        "description": "Temecula Valley Unified School District Trustee Danny Gonzalez resigned Friday.",
+        "source": "patch.com",
+        "tickers": [],
+        "tags": [
+          "California",
+          "Conservative",
+          "Majority",
+          "Schools",
+          "Temecula",
+          "Valley"
+        ],
+        "published_at": "2023-12-16T03:43:13+00:00"
+      }
+    ]
+  }
+}
