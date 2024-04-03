@@ -16,7 +16,7 @@ const Header = () => {
                 News
               </p>
               </Link>
-              <Link to='/'>
+              <Link to='/forecast'>
               <p className="text-[20px] cursor-pointer text-white/[0.9] hover:text-white/[0.64] transition duration-200 ">
                 Forecast
               </p>

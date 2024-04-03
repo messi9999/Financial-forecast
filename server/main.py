@@ -2,7 +2,10 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+
+from fastapi.responses import FileResponse
+
+import uvicorn
 
 from routers.api import api_router
 import os
@@ -30,18 +33,19 @@ app.add_middleware(
 )
 
 
-@app.get("/hello")
-def read_root():
-    return {"Hello": "World"}
+# @app.get("/hello")
+# def read_root():
+#     return {"Hello": "World"}
 
 app.include_router(api_router)
 
+# Mount the static files
+app.mount("/", StaticFiles(directory="public"), name="public")
+
+@app.get("/")
+async def main():
+    return FileResponse('public/index.html')
 
 
-# Get the directory of the current script
-current_dir = os.path.dirname(os.path.realpath(__file__))
-
-
-
-# Make sure to replace 'path_to_your_static_files' with the actual path to your static files
-app.mount("/public", StaticFiles(directory="public"), name="public")
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, log_level="info")
