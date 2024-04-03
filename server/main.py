@@ -1,9 +1,11 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from routers.api import api_router
+import os
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -28,8 +30,18 @@ app.add_middleware(
 )
 
 
-@app.get("/")
+@app.get("/hello")
 def read_root():
     return {"Hello": "World"}
 
 app.include_router(api_router)
+
+
+
+# Get the directory of the current script
+current_dir = os.path.dirname(os.path.realpath(__file__))
+
+
+
+# Make sure to replace 'path_to_your_static_files' with the actual path to your static files
+app.mount("/public", StaticFiles(directory="public"), name="public")

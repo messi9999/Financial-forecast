@@ -18,7 +18,7 @@ def getFinancialNews():
         date = "yeartodate"
         sources = "fxstreet.com, dailyfx.com"
 # sources={sources}&
-# sort={sort}&
+
         url = f"https://api.apilayer.com/financelayer/news?offset={offset}&limit={limit}&keywords={keywords}&fallback={fallback}&date={date}"
 
         payload = {}
