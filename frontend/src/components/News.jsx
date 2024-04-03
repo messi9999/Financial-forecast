@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import ArticleSection from "./ArticleSection";
-import jsondata from '../assets/data.json';
 
 const News = () => {
-  const [data, setData]= useState({});
+  const [data, setData] = useState();
   const [totalCount, setTotalCount] = useState(0);
   const [news, setNews] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [currentData, setCurrentData] = useState([]);
   const itemsPerPage = 4;
   const pagesToShow = 5; // Number of page links to show at a time
+  const apiUrl = import.meta.env.VITE_REACT_APP_API_URL;
 
   useEffect(() => {
     init();
@@ -34,7 +34,9 @@ const News = () => {
       pageNumbers.push(
         <li key={i}>
           <button
-            className={`flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${currentPage === i ? 'font-bold' : ''}`}
+            className={`flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${
+              currentPage === i ? "font-bold" : ""
+            }`}
             onClick={() => handlePageChange(i)}
           >
             {i}
@@ -52,9 +54,21 @@ const News = () => {
   }, [news, currentPage]);
 
   const init = () => {
-    setData(jsondata);
-    setTotalCount(jsondata.newsData.pagination.count);
-    setNews(jsondata.newsData.data);
+    fetch(apiUrl + "/news/all")
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error("Network response was not ok.");
+      })
+      .then((data) => {
+        // Assuming 'data' has a similar structure to 'jsondata'
+        setTotalCount(data.newsData.pagination.count);
+        setNews(data.newsData.data);
+      })
+      .catch((error) =>
+        console.error("There was a problem with the fetch operation:", error)
+      );
   };
 
   return (
@@ -65,8 +79,8 @@ const News = () => {
         </p>
       </div>
       {currentData.map((newItem, index) => (
-      <ArticleSection key={index} data={newItem} />
-    ))}
+        <ArticleSection key={index} data={newItem} />
+      ))}
       <div className="mx-auto flex justify-center">
         <nav aria-label="Page navigation example" className="p-10">
           <ul className="inline-flex -space-x-px text-sm">
