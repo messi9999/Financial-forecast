@@ -10,18 +10,15 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-
-      <div className="bg-gradient-to-r from-[#0f172a] to-slate-950 w-full min-h-screen  pt-10">
-        
-        <Router>
-        <Header/>
-          <Routes>
-          
-            <Route path="/" element={<Forecast />} />
-            <Route path="/news" element={<News />} />
-          </Routes>
-        </Router>
-      </div>
+    <div className="bg-gradient-to-r from-[#0f172a] to-slate-950 w-full min-h-screen  pt-10">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/forecast" element={<Forecast />} />
+          <Route path="/" element={<News />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
