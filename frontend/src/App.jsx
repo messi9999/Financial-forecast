@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/forecast" element={<Forecast />} />
-          <Route path="/" element={<News />} />
+          <Route path="/news" element={<News />} />
         </Routes>
       </Router>
     </div>
