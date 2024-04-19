@@ -31,7 +31,6 @@ const ArticleSection = ({ data }) => {
         {data.description}
       </p>
       <div className="flex justify-end items-center">
-        ///
         <a
           target="_blank"
           rel="noopener noreferrer"
