@@ -1,31 +1,39 @@
 import React, { useState } from "react";
 
-const ArticleSection = ({data}) => {
+const ArticleSection = ({ data }) => {
   return (
     <article className="p-6 mx-auto  border-b w-[70%] border-gray-600 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <h2 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
         {data.title}
       </h2>
       <div className="flex gap-6 items-center ">
-      <h1 className="mb-2 text-xl  tracking-tight text-white dark:text-white">
-       <span className="text-[#c23c3c] text-lg">From:</span> {data.source}
-      </h1>
-      <div className="flex items-center gap-2 overflow-hidden">
-      {
-        data.tags &&    // Checks if data.tags is truthy (i.e., not null or undefined)
-        data.tags.slice(0,9).map((item, index) => ( // Maps over each item in data.tags array
-          <span className ="rounded-2xl px-2 bg-[#c23c3c] text-white" key={index}>{item.slice(0,10)}</span> // Renders each item as a <span> element with a unique key
-        ))
-      }
-      </div>
+        <h1 className="mb-2 text-xl  tracking-tight text-white dark:text-white">
+          <span className="text-[#c23c3c] text-lg">From:</span> {data.source}
+        </h1>
+        <div className="flex items-center gap-2 overflow-hidden">
+          {data.tags && // Checks if data.tags is truthy (i.e., not null or undefined)
+            data.tags.slice(0, 9).map(
+              (
+                item,
+                index // Maps over each item in data.tags array
+              ) => (
+                <span
+                  className="rounded-2xl px-2 bg-[#c23c3c] text-white"
+                  key={index}
+                >
+                  {item.slice(0, 10)}
+                </span> // Renders each item as a <span> element with a unique key
+              )
+            )}
+        </div>
       </div>
       <p className="mb-5 font-light  text-white/[0.8] dark:text-gray-400">
         {data.description}
       </p>
       <div className="flex justify-end items-center">
-
         <a
-        target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
           href={data.url}
           className="inline-flex items-center text-white font-medium text-primary-600 dark:text-primary-500 hover:underline"
           // onClick={()=>setShowModal(true)}
@@ -89,7 +97,6 @@ const ArticleSection = ({data}) => {
   
   </div>
 } */}
-
     </article>
   );
 };

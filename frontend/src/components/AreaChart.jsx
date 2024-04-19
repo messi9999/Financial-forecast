@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
-import ApexCharts from 'apexcharts';
+import React, { useEffect } from "react";
+import ApexCharts from "apexcharts";
 
-const AreaChart = ({jdata}) => {
+const AreaChart = ({ jdata }) => {
   useEffect(() => {
-    
     // if (jdata && jdata.Daily) {
     //   // Extract dates from the Daily array
     //   const dates = jdata.Daily.map(entry => entry.Date);
@@ -11,11 +10,19 @@ const AreaChart = ({jdata}) => {
     // } else {
     //   console.error("No daily data found in jdata.");
     // }
-    const dates = jdata.Daily.map(entry => entry.Date);
-    const dailyHighs = jdata.Daily.map(entry => entry["Daily High"]);
-    const dailyLows = jdata.Daily.map(entry => entry["Daily Low"]);
-    const dailyHighsNumbers = dailyHighs.map(high => parseFloat(high.replace('¥', '')));
-    const dailyLowsNumbers = dailyLows.map(high => parseFloat(high.replace('¥', '')));
+    const dates = jdata.Daily.map((entry) => entry.Date);
+    const dailyHighs = jdata.Daily.map((entry) => entry["Daily High"]);
+    const dailyLows = jdata.Daily.map((entry) => entry["Daily Low"]);
+    const dailyHighsNumbers = dailyHighs.map((high) =>
+      parseFloat(high.replace("¥", ""))
+    );
+    const dailyLowsNumbers = dailyLows.map((high) =>
+      parseFloat(high.replace("¥", ""))
+    );
+    const dailyAverages = dailyHighsNumbers.map((high, index) => {
+      const low = dailyLowsNumbers[index];
+      return Math.round(((high + low) / 2) * 100) / 100;
+    });
     const options = {
       chart: {
         height: "100%",
@@ -56,19 +63,14 @@ const AreaChart = ({jdata}) => {
         padding: {
           left: 2,
           right: 2,
-          top: 0
+          top: 0,
         },
       },
       series: [
         {
           name: "",
-          data: dailyLowsNumbers,
+          data: dailyAverages,
           color: "#1A56DB",
-        },
-        {
-          name: "",
-          data: dailyHighsNumbers,
-          color: "#c23c3c",
         },
       ],
       xaxis: {
@@ -88,7 +90,10 @@ const AreaChart = ({jdata}) => {
       },
     };
 
-    const chart = new ApexCharts(document.getElementById("area-chart"), options);
+    const chart = new ApexCharts(
+      document.getElementById("area-chart"),
+      options
+    );
     chart.render();
 
     // Cleanup function to destroy the chart when the component unmounts

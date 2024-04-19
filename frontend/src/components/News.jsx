@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ArticleSection from "./ArticleSection";
+import loading from "../assets/loading.webp";
 
 const News = () => {
+  const [isLoad, setIsLoad] = useState(false);
   const [data, setData] = useState();
   const [totalCount, setTotalCount] = useState(0);
   const [news, setNews] = useState([]);
@@ -13,6 +15,7 @@ const News = () => {
 
   useEffect(() => {
     init();
+    console.log(apiUrl);
   }, []);
 
   const handlePageChange = (pageNumber) => {
@@ -65,6 +68,7 @@ const News = () => {
         // Assuming 'data' has a similar structure to 'jsondata'
         setTotalCount(data.newsData.pagination.count);
         setNews(data.newsData.data);
+        setIsLoad(true);
       })
       .catch((error) =>
         console.error("There was a problem with the fetch operation:", error)
@@ -78,34 +82,46 @@ const News = () => {
           Explore News Related USD to JPY.
         </p>
       </div>
-      {currentData.map((newItem, index) => (
-        <ArticleSection key={index} data={newItem} />
-      ))}
-      <div className="mx-auto flex justify-center">
-        <nav aria-label="Page navigation example" className="p-10">
-          <ul className="inline-flex -space-x-px text-sm">
-            <li>
-              <button
-                className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-              >
-                Previous
-              </button>
-            </li>
-            {renderPageNumbers()}
-            <li>
-              <button
-                className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === Math.ceil(totalCount / itemsPerPage)}
-              >
-                Next
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      {isLoad ? (
+        <div>
+          {currentData.map((newItem, index) => (
+            <ArticleSection key={index} data={newItem} />
+          ))}
+          <div className="mx-auto flex justify-center">
+            <nav aria-label="Page navigation example" className="p-10">
+              <ul className="inline-flex -space-x-px text-sm">
+                <li>
+                  <button
+                    className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                    onClick={() => handlePageChange(currentPage - 1)}
+                    disabled={currentPage === 1}
+                  >
+                    Previous
+                  </button>
+                </li>
+                {renderPageNumbers()}
+                <li>
+                  <button
+                    className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                    onClick={() => handlePageChange(currentPage + 1)}
+                    disabled={
+                      currentPage === Math.ceil(totalCount / itemsPerPage)
+                    }
+                  >
+                    Next
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      ) : (
+        <div className="flex gap-10 justify-center pt-10">
+          <div>
+            <img src={loading} width={200} height={200} />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
